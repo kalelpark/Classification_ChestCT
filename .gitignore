@@ -1,0 +1,10 @@
+.vscode
+__pycache__
+data
+model_storage
+models
+savemodel
+submission
+submission_storage
+wandb
+qqq.ipynb
