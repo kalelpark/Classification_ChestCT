@@ -20,6 +20,8 @@ $python main.py --action test --seed 0 --model efficientnet-b6 --epochs 100 --ba
 ## Result
 <img src = "png/wandb.png"/>
 
+## Ranking
+<img src = "png/scores.png"/>
 
 ## Output
 ```
