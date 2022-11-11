@@ -17,6 +17,8 @@ $python main.py --action test --seed 0 --model efficientnet-b6 --epochs 100 --ba
 |3_efficientnet-b6| 0.95 |0.9968 |8|rm_vt_flip, rm_shap, seed = 2, epochs = 50|
 |4_efficientnet-b6| 0.95 |0.993594 |8|rm_vt_flip, rm_shap, seed = 4, epochs = 50|
 
+## Result
+<img src = "png/wandb.png"/>
 
 
 ## Output
