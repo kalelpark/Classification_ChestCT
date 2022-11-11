@@ -17,14 +17,16 @@ validset = torchvision.datasets.ImageFolder(root = "data/Validation",
                                             transform = get_transform("valid")
                                         )
 
-image_list = os.listdir("data/test/")
+# {'ILD': 0, 'Lung_Cancer': 1, 'Normal': 2, 'pneumonia': 3, 'pneumothorax': 4}
+
+image_list = os.listdir("data/ct_new")
 image_list.sort()
 
 class customDataset(Dataset):
     def __init__(self, image_listed):
         self.image_list = image_listed
         self.transforms = get_transform("test")
-        self.paths = "data/test/"
+        self.paths = "data/ct_new/"
     
     def __getitem__(self, x):
         image_path = self.image_list[x]
