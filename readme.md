@@ -1,4 +1,4 @@
-# Classifying the presence or absence of a disease using chest X-ray data
+# Classification the presence or absence of a disease using chestCT
 
 ## Default
 ```bash
